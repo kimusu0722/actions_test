@@ -10,7 +10,7 @@ jobs:
     steps:
 
       - name: hello-action
-        uses: kimusu0722/writing-javascript-actions/hello-world@main
+        uses: kimusu0722/writing-javascript-actions/hello-world
 
       - name: ha-ha
         uses: ./.github/actions/joke-action
